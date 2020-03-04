@@ -2,7 +2,7 @@
 - hosts: localhost
   connection: local
   vars:
-    user: write your username here
+    user: mso
   tasks:
   - name: Create resource group
     azure_rm_resourcegroup:
@@ -14,4 +14,3 @@
     register: rg
   - debug:
       var: rg
-      
