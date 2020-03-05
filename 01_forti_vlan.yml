@@ -2,7 +2,7 @@
 - hosts: localhost
   vars:
    host: "10.172.10.1"
-   username: "User3"
+   username: "user3"
    vlanid: "103"
    vdom: "root"
    ssl_verify: "False"
