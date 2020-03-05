@@ -3,7 +3,7 @@
   vars:
    host: "10.172.10.1"
    username: "user3"
-   vlanid: "102"
+   vlanid: "103"
    vdom: "root"
    ssl_verify: "False"
   vars_prompt:
